@@ -1,0 +1,13 @@
+
+/*EXTEND en pagina PAGOS*/
+
+.estilopago1 {
+    font-size: 50px;
+    color: green;
+    text-align: center;
+}
+
+.estilopago2 {
+    color: aqua;
+    @extend .estilopago1;
+}

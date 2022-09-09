@@ -1,3 +1,17 @@
+/*JUGANDO CON MAP en pagina SOBRE NOSOTROS*/
+.los {
+  color: red; }
+
+.colores {
+  color: blue; }
+
+.primarios {
+  color: yellow; }
+
+/*JUGANDO CON MAP - GET en pagina SOBRENOSOTROS*/
+.los {
+  margin-left: 20px; }
+
 header {
   background-color: RGB(40, 159, 218, 255);
   margin-bottom: 0%;
@@ -287,3 +301,19 @@ body {
     margin-left: 30px; }
   #hero a {
     margin-left: 30px; }
+
+/*EXTEND en pagina PAGOS*/
+.estilopago1, .estilopago2 {
+  font-size: 50px;
+  color: green;
+  text-align: center; }
+
+.estilopago2 {
+  color: aqua; }
+
+/* mixin en CONTACTEOS */
+.parrafo2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 35px;
+  text-align: justify;
+  color: bisque; }

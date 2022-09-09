@@ -1,0 +1,21 @@
+
+/*JUGANDO CON MAP en pagina SOBRE NOSOTROS*/
+
+$mapRedes:(los:red, colores:blue, primarios:yellow);
+
+@each $colprim, $color in $mapRedes {
+    .#{$colprim} {
+        color: $color;
+    }
+}
+
+/*JUGANDO CON MAP - GET en pagina SOBRENOSOTROS*/
+
+$mapMargin: (marginl: 20px);
+
+.los {
+    margin-left: map-get($mapMargin, marginl);
+}
+
+
+

@@ -1,0 +1,13 @@
+
+/* mixin en CONTACTEOS */
+
+@mixin parrafo1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    text-align: justify;
+}
+
+.parrafo2 {
+    @include parrafo1;
+    color: bisque;
+}
